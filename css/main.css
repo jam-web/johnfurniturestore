@@ -1,0 +1,104 @@
+body {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px auto;
+}
+
+.jumbotron {
+  background-color: teal;
+  color: #ffffff;
+}
+
+/* Style inputs */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Create four columns using grid */
+
+.row {
+  padding: 0 4px;
+}
+
+.column {
+  width: 25%;
+  margin: 50px;
+}
+
+img {
+  vertical-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 50px;
+}
+
+h2, h3, h4 {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.card-img-bottom {
+  width: 75%;
+}
+
+#btndonate {
+  width: 100%;
+}
+
+address {
+  text-align: center;
+  width: 100%
+}
+
+.btn btn-primary {
+  width: 25%
+}
+
+/*Media Queries
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up*/
+
+@media (min-width: 576px) {}
+
+/* On screens that are 992px or less, set the background color to blue */
+
+@media screen and (max-width: 992px) {}
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 600px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
